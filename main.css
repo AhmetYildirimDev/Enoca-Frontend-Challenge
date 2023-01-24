@@ -1,0 +1,109 @@
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+  font-size: 12px;
+  font-family: "Times New Roman", Times, serif;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(162, 169, 232);
+}
+
+#github, #instagram, #linkedin {
+  width: 60px;
+  height: 30px;
+  font-size: 40px;
+  box-align: right;
+  float: left;
+}
+
+nav {
+  height: 60px;
+}
+
+header {
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  float: left;
+}
+
+.menu li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+  height: 60px;
+  line-height: 60px;
+  padding: 0px 30px;
+}
+
+.menu li a:hover, .login li a:hover {
+  background: #1c3a32;
+}
+
+#slider-container {
+  width: 800px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+}
+
+#back,
+#next {
+  width: 30px;
+  height: 30px;
+  font-size: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  box-shadow: 0 0 10px;
+  border-radius: 100%;
+  font-size: 40px;
+  cursor: pointer;
+  z-index: 10;
+  position: absolute;
+  top: calc(50% - 5px);
+}
+
+#back {
+  left: 15px;
+}
+
+#next {
+  right: 15px;
+}
+
+#slider {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  height: 400px;
+  position: relative;
+  left: 0;
+  transition: 0.5s all ease;
+}
+#slider .slide {
+  width: 800px;
+  height: 400px;
+  background-size: cover;
+  background-position: center, center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+}/*# sourceMappingURL=main.css.map */
